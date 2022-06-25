@@ -1,0 +1,179 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+   text-align: center;
+}
+
+#title {
+    background-color: #009DAE;
+    color: #fff;
+    text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-bold';
+}
+
+
+
+h3{
+    font-family: 'Montserrat-black';
+    font-size: 1.4rem;
+  
+}
+
+p {
+    color: darkgrey;
+}
+
+em {
+    font-family: 'Ubuntu', sans-serif;
+    ;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.intro {
+    font-family: 'Montserrat-black';
+    font-size: 3.4rem;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-family: 'Montserrat-black';
+}
+
+/* Download Bottons */
+
+.download-btn {
+    margin: 5% 5% 5% 0;
+
+}
+
+/* title image */
+
+.eyes-image {
+    /* transform: rotate(25deg); */
+    display: block;
+   margin:auto ;
+
+ width: 50%;
+}
+
+#features {
+    background-color: #C2FFF9;
+    padding: 7% 15%;
+}
+
+.feature-box {
+    
+    padding: 4%;
+    font-family: "Montserrat-bold";
+}
+
+.icon {
+    color: #71DFE7;
+    margin: 1rem;
+}
+
+.icon:hover {
+    color: #009DAE;
+}
+
+/* Testimonials section */
+#testimonials {
+    background-color: #71DFE7;
+    color: #fff;
+}
+
+.testimonials-1 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testemonials-img {
+    width: 20% !important;
+    border-radius: 100%;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #71DFE7;
+    padding-bottom: 3%;
+
+}
+
+.press-logo {
+    width: 15%;
+    margin: 25px 25px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+    background-color: #C2FFF9;
+  padding:100px ;  
+}
+
+.price-text{
+    font-family: 'Montserrat-bold';
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.pricing-col{
+    padding-top: 30px;
+}
+
+/* CTA Section */
+
+#cta{
+    background-color:#009DAE ;
+    color:#fff;
+    padding: 7% 15%;
+}
+
+
+/* Footer Section */
+
+#footer{
+    background-color: #C2FFF9;
+    padding: 7% 15%;
+
+}
+.social-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .eyes-image{
+        position: static;
+
+    }
+}
